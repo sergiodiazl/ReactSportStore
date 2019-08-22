@@ -12,7 +12,7 @@ import { AuthPrompt } from '../auth/AuthPrompt';
 import { authWrapper } from '../auth/AuthWrapper';
 
 // const graphQlClient = new ApolloClient({ //     uri: GraphQlUrl // });
-export const Admin = authWrapper(
+export default authWrapper(
   class extends Component {
     constructor(props) {
       super(props);
